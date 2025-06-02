@@ -25,24 +25,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-
-{/* <header className="flex items-center justify-between px-4 py-2 bg-amber-700 text-slate-100">
-          <p>
-            <Link href="/">Header</Link>
-          </p>
-          <ul>
-            {navItems.map((item, index) => {
-              return (
-                <li key={index}>
-                  <Link href={item.href}>{item.title}</Link>
-                </li>
-              );
-            })}
-          </ul>
-        </header> */}
+      <body className="h-full ">
+        <header className="flex items-center justify-between px-4 py-2 bg-blue-950 ">
+          <img src="/logo.png" alt="logo" className="h-10" />
+          <nav className="container mx-auto flex items-center justify-end space-x-7 border-t border-b border-blue-300 p-2">
+            <Link href="/" className=" text-blue-300 text-xl font-bold">
+              Home
+            </Link>
+            <Link href="/books" className=" text-blue-300 text-xl font-bold">
+              Books
+            </Link>
+            
+          </nav>
+        </header>
 
         {children}
       </body>
