@@ -20,16 +20,22 @@ const BooksPage = () => {
               alt={book.title}
               className="h-100 w-full object-contain rounded mt-4"
             />
-            <h2 className="text-3xl font-bold mt-4 text-center">{book.title}</h2>
-            <h3 className="text-2xl font-bold mt-2 mb-2 text-center">{book.author}</h3>
-            <p className="text-2xl  mt-2 mb-2 text-center">{book.shortDescription}</p>
+            <h2 className="text-3xl font-bold mt-4 text-center">
+              {book.title}
+            </h2>
+            <h3 className="text-2xl font-bold mt-2 mb-2 text-center">
+              {book.author}
+            </h3>
+            <p className="text-2xl  mt-2 mb-2 text-center">
+              {book.shortDescription}
+            </p>
             <div className="flex items-center justify-center mt-4">
-            <Link
-              href={`/books/{book.id}`}
-              className=" text-blue-300 text-2xl font-bold backdrop-blur-sm bg-blue-950 px-7 py-4 mt-8"
-            >
-              Read more...
-            </Link>
+              <Link
+                href={`/books/${book.id}`}
+                className=" text-blue-300 text-2xl font-bold backdrop-blur-sm bg-blue-950 px-7 py-4 mt-8"
+              >
+                Read more...
+              </Link>
             </div>
           </div>
         ))}
