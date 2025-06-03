@@ -1,6 +1,14 @@
 import books from "@/data/books.json";
 import { notFound } from "next/navigation";
 
+// имитация медленного интернет-соединения
+// const SimulateSlowNetwork = () =>
+//   new Promise((resolve) => setTimeout(resolve, 2000)); // 2 секунд
+
+// const BooksDetailPage = async ({ params }: { params: { booksId: string } }) => {
+
+//   await SimulateSlowNetwork();
+
 const BooksDetailPage = ({ params }: { params: { booksId: string } }) => {
   const book = books.find((book) => book.id === params.booksId);
   if (!book) return notFound();
