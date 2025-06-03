@@ -1,74 +1,92 @@
 [
-    {
-      "id": "1",
-      "title": "Harry Potter and the Philosopher's Stone",
-      "author": "J.K. Rowling",
-      "cover": "/covers/harry-potter.jpg",
-      "shortDescription": "A young wizard discovers his magical heritage.",
-      "fullDescription": "Harry discovers on his 11th birthday that he is a wizard and attends Hogwarts. He makes friends, faces challenges, and learns about the dark wizard who once tried to kill him."
-    },
-    {
-      "id": "2",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "cover": "/covers/the-hobbit.jpg",
-      "shortDescription": "A hobbit embarks on an unexpected adventure.",
-      "fullDescription": "Bilbo Baggins is swept into a grand quest with a group of dwarves to reclaim their homeland from the dragon Smaug. Along the way, Bilbo proves far braver than he believes himself to be."
-    },
-    {
-      "id": "3",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "cover": "/covers/pride-and-prejudice.jpg",
-      "shortDescription": "A story of love, manners, and misunderstanding.",
-      "fullDescription": "Elizabeth Bennet must deal with matters of upbringing, morality, and marriage. Her clashes with Mr. Darcy reveal truths about pride, prejudice, and the nature of true love."
-    },
-    {
-      "id": "4",
-      "title": "1984",
-      "author": "George Orwell",
-      "cover": "/covers/1984.jpg",
-      "shortDescription": "A dystopian society under constant surveillance.",
-      "fullDescription": "Winston Smith lives in a totalitarian state controlled by Big Brother. As he begins to rebel, he learns the horrifying extent of the regime’s power and its manipulation of truth and reality."
-    },
-    {
-      "id": "5",
-      "title": "Around the World in 80 Days",
-      "author": "Jules Verne",
-      "cover": "/covers/around-the-world.jpg",
-      "shortDescription": "An epic race across the globe.",
-      "fullDescription": "Phileas Fogg accepts a bet to circumnavigate the globe in just 80 days. He and his loyal servant Passepartout face countless adventures in their race against time."
-    },
-    {
-      "id": "6",
-      "title": "Jane Eyre",
-      "author": "Charlotte Brontë",
-      "cover": "/covers/jane-eyre.jpg",
-      "shortDescription": "A tale of passion and independence.",
-      "fullDescription": "Orphaned Jane Eyre becomes a governess and falls in love with her employer, Mr. Rochester. Secrets from his past test her strength, morality, and resilience."
-    },
-    {
-      "id": "7",
-      "title": "The Little Prince",
-      "author": "Antoine de Saint-Exupéry",
-      "cover": "/covers/little-prince.jpg",
-      "shortDescription": "A poetic tale of innocence and love.",
-      "fullDescription": "A pilot stranded in the desert meets a young prince from another planet. Through their conversations, he learns lessons about childhood, love, and what truly matters."
-    },
-    {
-      "id": "8",
-      "title": "Of Human Bondage",
-      "author": "W. Somerset Maugham",
-      "cover": "/covers/of-human-bondage.jpg",
-      "shortDescription": "A deep study of human emotion and self-discovery.",
-      "fullDescription": "Philip Carey seeks meaning in his life through relationships, art, and travel. His journey is one of internal conflict, personal struggle, and the quest for purpose."
-    },
-    {
-      "id": "9",
-      "title": "White Fang",
-      "author": "Jack London",
-      "cover": "/covers/white-fang.jpg",
-      "shortDescription": "A wild wolf-dog's journey to trust humans.",
-      "fullDescription": "Born in the wild, White Fang must learn to survive both nature and man. His eventual bond with a kind owner shows the power of trust and compassion."
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "year": 1997,
+    "genre": "Fantasy",
+    "cover": "/covers/harry-potter.jpg",
+    "shortDescription": "A young wizard discovers his magical heritage.",
+    "fullDescription": "On his 11th birthday, Harry Potter discovers he is a wizard and leaves his abusive relatives to attend Hogwarts School of Witchcraft and Wizardry. There, he makes close friends and uncovers mysteries about his past. He learns about a dark wizard named Voldemort who once tried to kill him. With bravery and the help of his friends, he overcomes his first major challenge. His journey begins as he enters the magical world for the first time."
+  },
+  {
+    "id": "2",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": 1937,
+    "genre": "Adventure",
+    "cover": "/covers/the-hobbit.jpg",
+    "shortDescription": "A hobbit embarks on an unexpected adventure.",
+    "fullDescription": "Bilbo Baggins lives a peaceful life until he is recruited by Gandalf and a group of dwarves on a mission to reclaim their mountain home. At first reluctant, Bilbo discovers bravery and resourcefulness within himself. The group faces trolls, goblins, and a giant dragon named Smaug. Bilbo's cleverness proves essential in securing the dwarves' treasure. His adventure changes him forever, awakening a deeper strength and confidence."
+  },
+  {
+    "id": "3",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "genre": "Romance",
+    "cover": "/covers/pride-and-prejudice.jpg",
+    "shortDescription": "A story of love, manners, and misunderstanding.",
+    "fullDescription": "Elizabeth Bennet, a witty and independent young woman, meets the proud and wealthy Mr. Darcy. Despite their initial dislike, they begin to see past misunderstandings and social prejudices. The story explores themes of class, marriage, and personal growth. Over time, both characters mature and realize their true feelings. Their love story becomes a classic tale of second chances and mutual respect."
+  },
+  {
+    "id": "4",
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "genre": "Dystopian",
+    "cover": "/covers/1984.jpg",
+    "shortDescription": "A dystopian society under constant surveillance.",
+    "fullDescription": "Winston Smith lives in a bleak world ruled by the omnipresent Big Brother and a totalitarian regime. He begins to question the system, starting a secret romance and seeking truth. However, rebellion comes at a great cost in a society where freedom is a crime. As Winston's defiance grows, he faces psychological manipulation and torture. Ultimately, the novel explores the terrifying power of control and the loss of individuality."
+  },
+  {
+    "id": "5",
+    "title": "Around the World in 80 Days",
+    "author": "Jules Verne",
+    "year": 1873,
+    "genre": "Adventure",
+    "cover": "/covers/around-the-world.jpg",
+    "shortDescription": "An epic race across the globe.",
+    "fullDescription": "Phileas Fogg, a methodical English gentleman, bets he can circle the globe in just 80 days. With his loyal servant Passepartout, he journeys by train, ship, and even elephant. Along the way, they face unexpected delays, cultural surprises, and a persistent detective. The trip becomes more than a bet — it tests their patience, courage, and adaptability. The novel celebrates innovation, perseverance, and the thrill of exploration."
+  },
+  {
+    "id": "6",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "genre": "Gothic Romance",
+    "cover": "/covers/jane-eyre.jpg",
+    "shortDescription": "A tale of passion and independence.",
+    "fullDescription": "Jane Eyre, a plain but strong-willed orphan, faces hardship throughout her youth. She finds a position as a governess at Thornfield Hall, where she meets the mysterious Mr. Rochester. As their bond deepens, dark secrets threaten their future. Jane must choose between love and self-respect. The novel explores moral strength, resilience, and the pursuit of equality in love."
+  },
+  {
+    "id": "7",
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "year": 1943,
+    "genre": "Philosophical Fiction",
+    "cover": "/covers/little-prince.jpg",
+    "shortDescription": "A poetic tale of innocence and love.",
+    "fullDescription": "A pilot crashes in the desert and meets a young prince from a distant asteroid. Through their conversations, the prince recounts visits to strange planets and encounters with adults obsessed with power, greed, and pride. He speaks lovingly of a rose he left behind and teaches the pilot about love and responsibility. The story reveals truths hidden behind simple words. It is a meditation on friendship, wonder, and what is truly important."
+  },
+  {
+    "id": "8",
+    "title": "Of Human Bondage",
+    "author": "W. Somerset Maugham",
+    "year": 1915,
+    "genre": "Literary Fiction",
+    "cover": "/covers/of-human-bondage.jpg",
+    "shortDescription": "A deep study of human emotion and self-discovery.",
+    "fullDescription": "Philip Carey, an orphan with a physical disability, searches for meaning through art, travel, and relationships. His unrequited love for a cruel woman nearly destroys him. He faces disillusionment, despair, and the struggle for purpose. Over time, Philip finds peace in the ordinary and accepts the unpredictability of life. The novel delves into human weakness, suffering, and the beauty of resilience."
+  },
+  {
+    "id": "9",
+    "title": "White Fang",
+    "author": "Jack London",
+    "year": 1906,
+    "genre": "Adventure",
+    "cover": "/covers/white-fang.jpg",
+    "shortDescription": "A wild wolf-dog's journey to trust humans.",
+    "fullDescription": "White Fang is born in the wild and learns the harsh laws of nature and survival. He is captured and mistreated by humans, turning him into a fierce and distrustful creature. Eventually, he finds a compassionate owner who shows him kindness and patience. White Fang slowly begins to trust and love. The novel explores instinct, transformation, and the possibility of redemption."
+  }
+]

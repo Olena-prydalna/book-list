@@ -7,7 +7,7 @@ import { notFound } from "next/navigation";
 
 // const BooksDetailPage = async ({ params }: { params: { booksId: string } }) => {
 
-//   await SimulateSlowNetwork();
+//   await SimulateSlowNetwork(); 
 
 const BooksDetailPage = ({ params }: { params: { booksId: string } }) => {
   const book = books.find((book) => book.id === params.booksId);
@@ -28,6 +28,12 @@ const BooksDetailPage = ({ params }: { params: { booksId: string } }) => {
         className="h-120 w-full object-contain rounded mb-10"
       />
       <div className="flex flex-col items-center ">
+      <p className="w-1/2 text-blue-300 text-2xl text-center mb-1.5">
+          Genre: {book.genre}
+        </p>
+        <p className="w-1/2 text-blue-300 text-2xl text-center mb-10">
+          Year: {book.year}
+        </p>
         <p className="w-1/2 text-blue-300 text-2xl text-center">
           {book.fullDescription}
         </p>
